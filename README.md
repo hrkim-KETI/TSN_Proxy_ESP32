@@ -135,7 +135,8 @@ pio run --target upload && pio device monitor
 | GPIO 16 | UART2 RX | LAN9692 TX |
 | GPIO 17 | UART2 TX | LAN9692 RX |
 | GND | Ground | LAN9692 GND |
-| 3.3V | Power | LAN9692 VCC |
+
+**참고**: Power는 각 디바이스에 별도로 인가
 
 ## 통신 프로토콜
 

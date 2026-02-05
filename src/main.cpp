@@ -23,9 +23,9 @@ const char* ssid = "keti-TSN";
 const char* password = "keti1234"; 
 
 // 2. IP 설정
-// IPAddress local_IP(10, 42, 0, 11); 
+IPAddress local_IP(10, 42, 0, 11); 
 // IPAddress local_IP(10, 42, 0, 12); 
-IPAddress local_IP(10, 42, 0, 13); 
+// IPAddress local_IP(10, 42, 0, 13); 
 // IPAddress local_IP(10, 42, 0, 14); 
 IPAddress gateway(10, 42, 0, 1);
 IPAddress subnet(255, 255, 255, 0);
